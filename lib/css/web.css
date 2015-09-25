@@ -1,0 +1,251 @@
+/* CSS RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+html, body {
+	background-color: black;
+}
+
+.main-wrapper {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.green {
+	color: #66cc00;
+}
+
+/*
+	=====================================================================
+
+		MAIN NAVIGATION
+
+	=====================================================================
+*/
+
+.main-nav {
+	position: fixed;
+	background-color: rgba(0,0,0,0.3);
+	width: 100%;
+	height: 50px;
+	z-index: 1000;
+	line-height: 50px;
+}
+
+.main-nav ul {
+	float: right;
+}
+
+.main-nav li{
+	opacity: 1;
+	display: inline;
+	text-align: center;
+	margin-right: 25px;
+}
+
+.main-nav li a:visited, .main-nav li a{
+	color: #e6e6e6;
+	text-decoration: none;
+}
+
+.main-nav li a:hover {
+	text-decoration: none;
+	color: #66cc00;
+	transition: color 0.5s ease;
+}
+
+.main-nav li a:active {
+	text-decoration: none;
+}
+
+/*
+	=====================================================================
+
+		IMAGES
+
+	=====================================================================
+*/
+
+.img-wrapper {
+	display: inline-block;
+	margin: 50px 50px 0 0;
+	width: 300px;
+	height: 400px;
+	-webkit-box-shadow: 4px 4px 10px 1px rgba(0,0,0,0.8);
+	-moz-box-shadow: 4px 4px 10px 1px rgba(0,0,0,0.8);
+	box-shadow: 4px 4px 10px 1px rgba(0,0,0,0.8);	
+}
+
+/*
+	=====================================================================
+
+		BUTTONS
+
+	=====================================================================
+*/
+
+#scroll-down {
+	border: 4px solid #e6e6e6;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 40px;
+	left: 50%;
+	margin-left: -30px;
+	cursor: pointer;
+	-webkit-box-shadow: inset 4px 4px 5px 0px rgba(4, 4, 4, .8), 3px 3px 5px 0px rgba(4, 4, 4, .8);
+	-moz-box-shadow:    inset 4px 4px 5px 0px rgba(4, 4, 4, .8), 3px 3px 5px 0px rgba(4, 4, 4, .8);
+	box-shadow:         inset 4px 4px 5px 0px rgba(4, 4, 4, .8), 3px 3px 5px 0px rgba(4, 4, 4, .8);
+	transition: border-color 0.5s ease;
+}
+
+#scroll-down:hover {
+	border-color: #66cc00;
+}
+
+.glyphicon:hover { 
+	color: #66cc00;
+}
+
+
+.glyphicon-menu-down {
+    font-size: 30px;
+    color: #e6e6e6;
+    margin-left: 21%;
+    margin-top: 20%;
+    /* THIS WORKS, FIX IT LATER text-shadow: 2px 2px black;*/
+    transition: color 0.5s ease;
+}
+
+/*
+	=====================================================================
+
+		LANDING SCREEN
+
+	=====================================================================
+*/
+
+
+.load-screen {
+	position: fixed;
+	background-color: black;
+	background: url("../images/congruent_outline.png");
+	height: 100vh;
+	width: 100%;
+}
+
+.intro-header {
+	color: #e6e6e6;
+	display: table;
+	margin: 0 auto;
+	padding-top: 200px;
+}
+
+.intro-header h1 {
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+.intro-header p {
+	color: #66cc00;
+	font-family: 'Lucida Console', 'Lucida Sans Typewriter', 'Bitstream Vera Sans Mono', monospace;
+}
+
+#myname span{
+	transition: color 0.2s ease;
+}
+
+#myname span:hover {
+	color: #66cc00;
+}
+
+/*
+	=====================================================================
+
+		ABOUT ME 
+
+	=====================================================================
+*/
+
+.about-me {
+	position: relative;
+	margin-top: 100vh;
+	height: 100vh;
+	min-height: 100vh;
+	width: 100%;
+	background-color: #f0f0f0;
+	padding: 50px;
+}
+
+.img-text {
+	display: inline-block;
+	width: 500px;
+}
+
+/*
+	=====================================================================
+
+		PROJECTS
+
+	=====================================================================
+*/
+
+.projects {
+	position: relative;
+	height: 100vh;
+	min-height: 100vh;
+	width: 100%;
+	background-color: #66cc00;
+	padding: 50px;
+}
+
+/*
+	=====================================================================
+
+		CONTACT 
+
+	=====================================================================
+*/
+
+.contact {
+	position: relative;
+	height: 100vh;
+	min-height: 100vh;
+	width: 100%;
+	background-color: #e6e6e6;
+	padding: 50px;
+}
+
+/*
+	=====================================================================
+
+		FOOTER
+
+	=====================================================================
+*/
+
+footer {
+
+}
+
+
+
+
+
+
+
+
+
+
