@@ -1,0 +1,103 @@
+* {
+	font-family: Helvetica;
+	font-size: 1.05em;
+}
+
+#calculator {
+	margin: 0 auto;
+	width: 290px;
+	padding: 10px;
+	overflow: auto;
+}
+
+#screen {
+	height: 70px;
+	width:263px;
+	padding: 0 10px;
+	border: 1px solid black;
+	border-bottom: 0;
+	line-height: 70px;
+	display: table;
+	background-color: #f0f0f0;
+	border-radius: 12px 12px 0 0; 
+}
+
+#screen p {
+	text-align: right;
+	display: table-cell;
+	overflow: auto;
+	max-width: 263px;
+}
+
+.btn {
+	display: table;
+	width: 70px;
+	height: 70px;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	/*margin: 5px;*/
+	line-height: 70px;
+	float: left;
+	cursor: pointer;
+}
+
+.btn-long {
+	width: 141px;
+	cursor: pointer;
+}
+
+.bottom {
+	border-bottom: 1px solid black;
+	border-bottom-left-radius: 12px;
+}
+
+.btn p {
+	display: table-cell;
+	text-align: center;
+}
+
+.op {
+	border-right: 1px solid black;
+}
+
+#equals {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-bottom-right-radius: 12px;
+}
+
+.digit:hover, #decimal:hover {
+	background-color: #f0f0f0;
+}
+
+.op, #equals {
+	background-color: #1975ff;
+	color: #f0f0f0;
+}
+
+.op:hover, #equals:hover {
+	background-color: #005CE6;
+}
+
+
+#clear {
+	background-color: #003D99;
+	color: #f0f0f0;
+}
+
+#clear {
+	border-bottom: 1px solid black;
+	border-right: 0;
+}
+
+#clear:hover {
+	background-color: #002966;
+}
+
+.clear {
+	clear: left;
+}
+
+#switchsign:hover {
+	background-color: #f0f0f0;
+}
